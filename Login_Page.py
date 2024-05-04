@@ -223,7 +223,7 @@ To use the program, just enter your username & password'''
                                                                 except PermissionError:
                                                                     msg.showinfo('Notice', 'Your system couldn\'t allow us to remove FSCP_database.db automatically!\nif u dont need it, delete it by your own.')
                                                                 except Exception:
-                                                                    pass # به درک که حذف نمیشه
+                                                                    pass
                                                             else:
                                                                 msg.showerror('Missing Data', 'FSCP_database.db NOT FOUNDED!')
                                                         def try_del_db():
@@ -496,7 +496,7 @@ if __name__ == "__main__":
         log_main.mainloop()
     else:
         OS_txt = "This program is developed for the Windows operating system;\nPlease contact the program developers for more information."
-        with open("Read_ME.txt", W) as file:
+        with open("Read_ME.txt", "w+") as file:
             file.write(OS_txt)
         try:
             root = Tk()
