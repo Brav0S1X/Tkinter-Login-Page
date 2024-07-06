@@ -205,7 +205,7 @@ To use the program, just enter your username & password'''
                                                     msg.showerror('Invalid Data', 'You cant enter anything except numbers in CAPTCHA Field!')
                                             if capt_int:
                                                 self.captcha = str(self.captcha)
-                                                if self.captcha == self.cap_list[0]:
+                                                if self.captcha == str(self.cap_list[0]):
                                                     try:
                                                         def delete_database():
                                                             if os.path.exists("FSCP_database.db"):
