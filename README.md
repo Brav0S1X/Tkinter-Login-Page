@@ -26,7 +26,7 @@ Exception in Tkinter callback
 Traceback (most recent call last):
   File "Login_page.py", line 306, in check_captcha
     login_cur.execute(f"SELECT role FROM USERs WHERE username = '{cipher_usr}' AND password = '{cipher_pwd}'")
-sqlite3.DatabaseError: **`file is not a database`**
+sqlite3.DatabaseError: file is not a database
 ```
 To fix this error, you must refer to the site's Internet address manually with the IP address of Iran; URL available in line 239 of the source! something like:
 ```Python
