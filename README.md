@@ -22,7 +22,6 @@
 **One**<br>
 Sometimes you may encounter this error:
 ```text
-Exception in Tkinter callback
 Traceback (most recent call last):
   File "Login_page.py", line 306, in check_captcha
     login_cur.execute(f"SELECT role FROM USERs WHERE username = '{cipher_usr}' AND password = '{cipher_pwd}'")
