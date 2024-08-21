@@ -27,11 +27,11 @@ Traceback (most recent call last):
     login_cur.execute(f"SELECT role FROM USERs WHERE username = '{cipher_usr}' AND password = '{cipher_pwd}'")
 sqlite3.DatabaseError: file is not a database
 ```
-To fix this error, you must refer to the site's Internet address manually with the IP address of Iran; URL available in line 239 of the source! something like:
+To `fix` this `error`, you must refer to the site's Internet address manually with the IP address of `Iran`; URL available in **`line 239`** of the source! something like:
 ```Python
 url = "https://domain.com/path/Login_Database.db"
 ```
-Submit a request to get a new download link and replace it with the previous URL in the source code.(or u can put your own URL in the same place)<br><br>
+Submit a request to **`get a new download link and replace it`** with the previous URL in the source code.(or u can put your own URL in the same place)<br><br>
 **Two**<br>
 To get logged in, use this informations:
 ```bash
