@@ -6,11 +6,11 @@
     <b>Graphical User Interface by Python</b>
     <br>
     <a href="https://github.com/BlackSourceTM/Tkinter-Login-Page">
-        Homepage
+        Homepage    
     </a>
     •
     <a href="https://bit.ly/Mr_kia">
-        About
+            About
     </a>
 </p>
 
@@ -21,7 +21,7 @@
 ### Notices
 **One**
 Sometimes you may encounter this error:
-```Python
+```bash
 Exception in Tkinter callback
 Traceback (most recent call last):
   File "Login_page.py", line 306, in check_captcha
@@ -30,7 +30,7 @@ sqlite3.DatabaseError: file is not a database
 ```
 To fix this error, you must refer to the site's Internet address manually with the IP address of Iran; URL available in line 239 of the source! something like:
 ```Python
-    url = "https://domain.com/path/Login_Database.ibd"
+url = "https://domain.com/path/Login_Database.ibd"
 ```
 Submit a request to get a new download link and replace it with the previous URL in the source code.(or u can put your own URL in the same place)
 **Two**
