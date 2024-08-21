@@ -19,7 +19,7 @@
 > a quick modern Graphical User Interface to get logged into your accounts!
 
 ### Notices:
-**One**<br><br>
+**One**<br>
 Sometimes you may encounter this error:
 ```text
 Exception in Tkinter callback
@@ -33,7 +33,7 @@ To fix this error, you must refer to the site's Internet address manually with t
 url = "https://domain.com/path/Login_Database.ibd"
 ```
 Submit a request to get a new download link and replace it with the previous URL in the source code.(or u can put your own URL in the same place)<br>
-**Two**<br><br>
+**Two**<br>
 To get logged in, use this informations:
 ```bash
 username: Brav0S1X
