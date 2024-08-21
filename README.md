@@ -14,14 +14,14 @@
     </a>
 </p>
 
-## Python Tk
+## Python Tk()
 
 > a quick modern Graphical User Interface to get logged into your accounts!
 
 ### Notices
 **One**
 Sometimes you may encounter this error:
-```bash
+```text
 Exception in Tkinter callback
 Traceback (most recent call last):
   File "Login_page.py", line 306, in check_captcha
