@@ -16,7 +16,7 @@
 
 ## root != Tk;)
 
-> a quick modern Graphical User Interface to get logged into your accounts!
+> a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
 
 ### Notices:
 **One**<br>
