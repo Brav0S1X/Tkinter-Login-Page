@@ -48,7 +48,7 @@ password: Ali@1382
 
 ### Run
 
-``` bash
+```text
 >_ git clone https://github.com/BlackSourceTM/Tkinter-Login-Page.git
 >_ cd Tkinter-Login-Page
 >_ pip install -r requirements.txt
