@@ -1,6 +1,6 @@
 <p align="center">
     <a href="github.address">
-        <img src="https://github.com/BlackSourceTM/Tkinter-Login-Page/blob/main/default_bg.png" alt="Brav0S1X" width="128">
+        <img src="https://github.com/BlackSourceTM/Tkinter-Login-Page/blob/main/banner.png" alt="banner" width="128">
     </a>
     <br>
     <b>Graphical User Interface by Python</b>
@@ -14,7 +14,7 @@
     </a>
 </p>
 
-## Python Tk()
+## root != Tk;)
 
 > a quick modern Graphical User Interface to get logged into your accounts!
 
@@ -52,5 +52,5 @@ password: Ali@1382
 >_ git clone https://github.com/BlackSourceTM/Tkinter-Login-Page.git
 >_ cd Tkinter-Login-Page
 >_ pip install -r requirements.txt
->_ python main.py
+>_ python Login_page.py
 ```
