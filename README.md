@@ -1,11 +1,11 @@
 <p align="center">
     <a href="github.address">
-        <img src="https://github.com/BlackSourceTM/Tkinter-Login-Page/blob/main/banner.png" alt="banner" width="128">
+        <img src="https://github.com/Brav0S1X/Tkinter-Login-Page/blob/main/banner.png" alt="banner" width="128">
     </a>
     <br>
     <b>Graphical User Interface by Python</b>
     <br>
-    <a href="https://github.com/BlackSourceTM/Tkinter-Login-Page">
+    <a href="https://github.com/Brav0S1X/Tkinter-Login-Page">
         Homepage    
     </a>
     •
@@ -48,7 +48,7 @@ password: Ali@1382
 ### Run
 
 ```text
->_ git clone https://github.com/BlackSourceTM/Tkinter-Login-Page.git
+>_ git clone https://github.com/Brav0S1X/Tkinter-Login-Page.git
 >_ cd Tkinter-Login-Page
 >_ pip install -r requirements.txt
 >_ python Login_Page.py
