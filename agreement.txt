@@ -1,8 +1,5 @@
-Sample Terms of Use
-
-Important Notice
-
-This document is provided only as sample text for demonstration purposes. It is included in this project to show how a Terms of Use section can be displayed inside a graphical login application. It is not a legal contract, it does not create legally binding obligations, and it should not be treated as an official policy, license, or agreement.
+[+] - Important Notice
+[+] This document is provided only as sample text for demonstration purposes. It is included in this project to show how a Terms of Use section can be displayed inside a graphical login application. It is not a legal contract, it does not create legally binding obligations, and it should not be treated as an official policy, license, or agreement.
 
 This project is a minimal login interface built with Python and Tkinter. Its purpose is to demonstrate the structure and behavior of a simple desktop login window, including common interface elements such as username and password fields, a captcha input, a checkbox, and a Terms of Use section. The project is intended as a technical example for learning, experimentation, and interface design.
 
@@ -21,5 +18,3 @@ This sample is intentionally written in a clear and general form so it can be re
 No promise of service, uptime, support, warranty, legal protection, or fitness for a particular purpose is made through this document. The presence of this text inside the application should be understood only as part of the user interface demonstration. The developer may update, replace, or remove it at any time without notice.
 
 In short, this file is plain example content for a Terms of Use page in a minimal Tkinter login application. It is included to demonstrate text presentation and interface flow. It has no independent legal force and should be treated strictly as sample material.
-
-End of sample text.
