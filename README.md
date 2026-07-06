@@ -4,7 +4,8 @@
     <br>
 </p>
 <img width="900" alt="Tkinter app authentication screen" src="https://github.com/user-attachments/assets/2770b612-6d63-4700-aec1-ee88ab7b629e" />
-### root != Tk;)
+
+root != Tk;)
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
 
