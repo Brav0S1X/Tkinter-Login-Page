@@ -9,7 +9,7 @@
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
 
-**Tkinter Login Project** is a lightweight Python application packaged as a single executable. It uses embedded resources, including inline SVG assets, to reduce external dependencies and keep the project self-contained. This is the second working version of the project, built as a learning-oriented example of graphical user interface development.
+**Tkinter Login Project** is a lightweight Python application packaged as a single executable. It uses embedded resources, including inline SVG assets, to reduce external dependencies and keep the project self-contained. This is the second working version of the project, built as a learning-oriented example of graphical user interface development.<br><br>
 
 ### Packaging & Deployment
 For the final packaged executable, setting the icon at runtime with self.set_icon is not recommended.
@@ -29,7 +29,7 @@ pyinstaller --onefile --windowed --collect-all multicolorcaptcha --collect-all P
 
 ---
 
-### Testing
+<br><br>### Testing
 Use the following credentials for testing:
 
 ```text
@@ -40,14 +40,14 @@ Password: 1234
 > **Security Notice:**  
 > This project is intended only as a demonstration of how to connect a graphical interface to a database. Before using it in a real-world application, you should replace the encryption algorithm with a secure one and protect the communication channel between the application and the database.
 
-### Key Features
+<br><br>### Key Features
 - **Modern UI**: A clean and lightweight Tkinter interface
 - **Database-backed Login**: Authentication connected to a database
 - **Bot Protection**: Basic captcha verification
 - **Single Executable**: Packed into one standalone file
 - **Embedded Assets**: Uses internal resources to minimize external dependencies
 
-### Run
+<br>### Run
 
 ```text
 >_ git clone https://github.com/Brav0S1X/Tkinter-Login-Page.git
