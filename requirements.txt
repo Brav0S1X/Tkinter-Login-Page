@@ -1,5 +1,5 @@
-captcha==0.5.0
+cairosvg==2.7.1
 gTTS==2.5.0
+multicolorcaptcha==1.2.0
 Pillow==10.1.0
-PyPDF2==3.0.1
 requests==2.31.0
