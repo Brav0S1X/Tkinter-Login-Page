@@ -20,22 +20,7 @@
 **One**  
 You can set a custom application icon using one of the following methods:
 
-**1. Per-window icon (Development method)**  
-Call the following method (e.g. `self.set_icon()`) for each window individually:
-
-```python
-def set_icon(self):
-    icon_path = os.path.join(self.currentDir, "ICON.png")
-    if os.path.exists(icon_path):
-        try:
-            icon_photo = PhotoImage(file=icon_path)
-            self.master.iconphoto(False, icon_photo)
-            self.icon_photo = icon_photo
-        except Exception:
-            pass
-```
-
-**2. Permanent executable icon (Recommended)**  
+For the final packaged executable, setting the icon at runtime with self.set_icon is not recommended.
 Use the `--icon` argument when building the application with **PyInstaller** to permanently embed your desired `.ico` file into the executable.
 
 > **Note:**  
