@@ -10,7 +10,7 @@
             About
     </a>
 </p>
-
+<img width="3146" height="1769" alt="78451" src="https://github.com/user-attachments/assets/cddea596-1f5e-475f-a4c2-6dfa997c2288" />
 ## root != Tk;)
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
