@@ -1,7 +1,4 @@
 <p align="center">
-    <a href="github.address">
-        <img src="https://github.com/Brav0S1X/Tkinter-Login-Page/blob/main/banner.png" alt="banner" width="128">
-    </a>
     <br>
     <b>Graphical User Interface by Python</b>
     <br>
@@ -9,7 +6,7 @@
         Homepage    
     </a>
     •
-    <a href="https://bit.ly/Mr_kia">
+    <a href="https://mrkia.ir">
             About
     </a>
 </p>
@@ -18,32 +15,52 @@
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
 
-### Notices:
-**One**<br>
-Sometimes you may encounter this error:
-```text
-Traceback (most recent call last):
-  File "Login_page.py", line 306, in check_captcha
-    login_cur.execute(f"SELECT role FROM USERs WHERE username = '{cipher_usr}' AND password = '{cipher_pwd}'")
-sqlite3.DatabaseError: file is not a database
+### Notices
+
+**One**  
+You can set a custom application icon using one of the following methods:
+
+**1. Per-window icon (Development method)**  
+Call the following method (e.g. `self.set_icon()`) for each window individually:
+
+```python
+def set_icon(self):
+    icon_path = os.path.join(self.currentDir, "ICON.png")
+    if os.path.exists(icon_path):
+        try:
+            icon_photo = PhotoImage(file=icon_path)
+            self.master.iconphoto(False, icon_photo)
+            self.icon_photo = icon_photo
+        except Exception:
+            pass
 ```
-To `fix` this `error`, you must refer to the site's Internet address manually with the IP address of `Iran`; URL available in **`line 239`** of the source! something like:
-```Python
-url = "https://domain.com/path/Login_Database.db"
-```
-Submit a request to **`get a new download link and replace it`** with the previous URL in the source code.(or u can put your own URL in the same place)<br><br>
-**Two**<br>
-To get logged in, use this informations:
+
+**2. Permanent executable icon (Recommended)**  
+Use the `--icon` argument when building the application with **PyInstaller** to permanently embed your desired `.ico` file into the executable.
+
+> **Note:**  
+> If you encounter the following error while packaging:
+>
+> `randrange(0, 0, 0)`
+>
+> make sure all required dependencies are collected correctly. For example:
+
 ```bash
-username: Brav0S1X
-password: Ali@1382
+pyinstaller --onefile --windowed --collect-all multicolorcaptcha --collect-all PIL --icon ICON.ico login.py
 ```
 
-### Key Features
+---
 
-- **Simple**: With an easy UI
-![login_vector](https://github.com/user-attachments/assets/f615e97b-ada7-4a89-812f-85836bbea397)
-- **Safe**: Using DataBases for getting better experience & prevent of BOT Activities.
+**Two**  
+Use the following credentials for testing:
+
+```text
+Username: Test
+Password: 1234
+```
+
+> **Security Notice:**  
+> This project is intended only as a demonstration of how to connect a graphical interface to a database. Before using it in a real-world application, you should replace the encryption algorithm with a secure one and protect the communication channel between the application and the database.
 
 ### Run
 
@@ -51,5 +68,5 @@ password: Ali@1382
 >_ git clone https://github.com/Brav0S1X/Tkinter-Login-Page.git
 >_ cd Tkinter-Login-Page
 >_ pip install -r requirements.txt
->_ python Login_Page.py
+>_ python login.py
 ```
