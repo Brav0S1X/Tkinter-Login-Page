@@ -39,14 +39,17 @@ Password: 1234
 
 > **Security Notice:**  
 > This project is intended only as a demonstration of how to connect a graphical interface to a database. Before using it in a real-world application, you should replace the encryption algorithm with a secure one and protect the communication channel between the application and the database.
-<br><br>
+
+
+
 ### Key Features
 - **Modern UI**: A clean and lightweight Tkinter interface
 - **Database-backed Login**: Authentication connected to a database
 - **Bot Protection**: Basic captcha verification
 - **Single Executable**: Packed into one standalone file
 - **Embedded Assets**: Uses internal resources to minimize external dependencies
-<br>
+
+
 ### Run
 
 ```text
