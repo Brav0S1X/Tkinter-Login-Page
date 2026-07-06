@@ -8,6 +8,7 @@
 ### root != Tk;)
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!<br><br><br>
+
 **Tkinter Login Project** is a lightweight Python application packaged as a single executable. It uses embedded resources, including inline SVG assets, to reduce external dependencies and keep the project self-contained. This is the second working version of the project, built as a learning-oriented example of graphical user interface development.
 
 ### Packaging & Deployment
