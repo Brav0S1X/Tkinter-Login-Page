@@ -2,15 +2,8 @@
     <br>
     <b>Graphical User Interface by Python</b>
     <br>
-    <a href="https://github.com/Brav0S1X/Tkinter-Login-Page">
-        Homepage    
-    </a>
-    •
-    <a href="https://mrkia.ir">
-            About
-    </a>
 </p>
-<img width="3146" height="1769" alt="78451" src="https://github.com/user-attachments/assets/cddea596-1f5e-475f-a4c2-6dfa997c2288" />
+<img width="900" alt="Tkinter app authentication screen" src="https://github.com/user-attachments/assets/2770b612-6d63-4700-aec1-ee88ab7b629e" />
 ## root != Tk;)
 
 > a Quick Modern Graphical User Interface to Get Logged into Your Accounts!
@@ -21,7 +14,8 @@
 For the final packaged executable, setting the icon at runtime with self.set_icon is not recommended.
 Use the `--icon` argument when building the application with **PyInstaller** to permanently embed your desired `.ico` file into the executable.
 
-> **Note:**  
+> **Note:**
+
 > If you encounter the following error while packaging:
 >
 > `randrange(0, 0, 0)`
