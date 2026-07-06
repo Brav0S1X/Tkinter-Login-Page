@@ -18,8 +18,6 @@
 ### Notices
 
 **One**  
-You can set a custom application icon using one of the following methods:
-
 For the final packaged executable, setting the icon at runtime with self.set_icon is not recommended.
 Use the `--icon` argument when building the application with **PyInstaller** to permanently embed your desired `.ico` file into the executable.
 
