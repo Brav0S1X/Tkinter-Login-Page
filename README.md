@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <b>Graphical User Interface by Python</b>
+    <a href=https://github.com/Brav0S1X/Tkinter-Login-Page/tree/main><strong>Python-based GUI</strong></a>
     <br>
 </p>
 <img width="900" alt="Tkinter app authentication screen" src="https://github.com/user-attachments/assets/2770b612-6d63-4700-aec1-ee88ab7b629e" />
